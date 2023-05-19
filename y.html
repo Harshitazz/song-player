@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .navbar {
+      background-color: black;
+    }
+    .navbar li{
+      margin: 10px;
+      list-style: none;
+      float: left;
+      
+    }
+    .navbar ul{
+      overflow:auto;
+      
+    }
+    .navbar li a{
+      text-decoration: none;
+      font-size: larger;
+      margin: 10px;
+      color: aliceblue;
+
+    }
+    .navbar ul li a:hover{
+      cursor: pointer;
+      color:aqua;
+    }
+    .search{
+      float: right;
+      margin: 8px;
+      color: azure;
+    }
+    .navbar input{
+      border: 2px solid rgb(232, 38, 38);
+      border-radius: 14px;
+      padding: 3px 17px;
+      width: 129px;
+    }
+    .navbar button{
+      border-radius: 14px;
+      font-size: 16px;
+      padding: 3px;
+      margin: 2px;
+    }
+    .navbar button:hover{
+      cursor: pointer;
+      background-color: brown;
+    }
+    .navbar div{
+      
+
+    }
+  </style>
+</head>
+<body>
+  <header >
+    <nav class="navbar">
+      <ul>
+        <li><a  href="#">home</a></li>
+        <li><a href="#">services</a></li>
+        <li><a href="#">abuut</a></li>
+        <li><a href="#">contact</a></li>
+        <div class="search">
+          <input type="text" name="search" id="search" placeholder="Search this website">
+          <button>go
+          </button>         
+        </div>
+      </ul>
+    </nav>
+  </header>
+</body>
+</html>
