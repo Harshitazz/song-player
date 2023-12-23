@@ -117,3 +117,6 @@ nav ul li{
     
     transition: opacity 1s ease-in;
 }
+.masterSongName{
+    color: aliceblue;
+}
