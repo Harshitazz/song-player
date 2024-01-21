@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Noto+Serif+Display:ital,wght@1,300&family=PT+Serif:ital@1&display=swap');
 
 body{
-    background-color: rgb(248, 230, 206);
+    background-color: rgb(10, 1, 1);
 }
 *{
     margin: 0;
@@ -30,13 +30,13 @@ nav ul li{
 .container{
     min-height: 68vh;
     background-color: black;
-    color: white;
+    color: rgb(9, 4, 4);
     display: flex;
     width: 75%;
     margin: 23px auto ;
     padding: 10px;
     border-radius: 10px;
-    background-image: url(f.jpg);
+    background-image: url(yoga-4849683_1280.jpg);
     font-family: Verdana, Geneva, Tahoma, sans-serif;}
 .brand{
     display: flex;
